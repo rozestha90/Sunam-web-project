@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Loops - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>🧶Sunam's Cozy Loops</h1>
+        <p>Handmade Crochet with Love</p>
+    </header>
+    <nav><a href="index.html">🏠 Home</a><a href="about.html">🌷 About Us</a><a href="shop.html">🧸 Products</a><a
+            href="contact.html">✉ Contact</a></nav>
+    <main>
+        <h2>Our Crochet Products</h2>
+        <p class="intro">Choose your favorite handmade product!</p>
+        <div class="cards">
+            <div class="card"><img
+                    src="C:\Users\Sunam Shrestha\Pictures\Camera Roll\mypics\sunam mob\crochet\IMG_20260213_085534_520.jpg"
+                    alt="Crochet flower">
+                <h3>Crochet Flower</h3>
+                <p>Price: Rs. 850</p><button onclick="addToCart('Crochet Flower')">Add to Basket</button>
+            </div>
+            <div class="card"><img
+                    src="C:\Users\Sunam Shrestha\Pictures\Camera Roll\mypics\sunam mob\crochet\IMG_20260603_085821_890.jpg"
+                    alt="Crochet bag">
+                <h3>Small Crochet Bag</h3>
+                <p>Price: Rs. 250</p><button onclick="addToCart('Small Crochet Bag')">Add to Basket</button>
+            </div>
+            <div class="card"><img
+                    src="C:\Users\Sunam Shrestha\Pictures\Camera Roll\mypics\sunam mob\crochet\IMG_20250624_082645_531.jpg"
+                    alt="Crochet keychain">
+                <h3>Crochet Keychain</h3>
+                <p>Price: Rs. 150</p><button onclick="addToCart('Crochet Keychain')">Add to Basket</button>
+            </div>
+        </div>
+        <section class="basket">
+            <h3>My Basket</h3>
+            <p id="basket-items">No products added yet.</p><button onclick="clearBasket()">Clear Basket</button>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Sunam's Cozy Loops | Made with love ♡</p>
+    </footer>
+</body>
+
+</html>
